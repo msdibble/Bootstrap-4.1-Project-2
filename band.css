@@ -7,6 +7,10 @@
     padding-bottom: var(--jumbotron-padding-y);
     margin-bottom: 0;
     background-color: #fff;
+    background-image: url("../bootstrap4/img/banjo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -17,14 +21,22 @@
   
   .jumbotron p:last-child {
     margin-bottom: 0;
+    color: white;
   }
   
   .jumbotron-heading {
     font-weight: 300;
+    color: white;
   }
   
   .jumbotron .container {
     max-width: 40rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+
+  .lead-text {
+    color: white;
   }
   
   footer {
